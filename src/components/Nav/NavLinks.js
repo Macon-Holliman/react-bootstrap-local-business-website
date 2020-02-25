@@ -3,10 +3,15 @@ import './NavLinks.scss';
 
 function NavLinks() {
   return (
-    <div class="col col-lg-3">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+    <div class="col-9 col-md-4 col-lg-3">
+      <div id="navbarSupportedContent">
+        <ul class="navbar-nav nav-adjust">
+          <li class="nav-item home-mobile">
+            <a class="nav-link" href="/">A
+            <span class="ampersand-adjust-logo">{'&'}</span>
+            K</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/about">About Us</a>
           </li>
           <li class="nav-item">

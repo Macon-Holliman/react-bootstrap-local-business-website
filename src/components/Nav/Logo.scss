@@ -79,7 +79,7 @@
   pointer-events: none;
 
   &.left-swipe{
-    right: 55%;
+    right: 60%;
     left: 0%; 
     margin-top: -10px;
     text-align: right;
@@ -87,7 +87,7 @@
   }
   &.right-swipe{
     right: 0%;
-    left: 55%;
+    left: 60%;
     margin-top: -10px;
     text-align: left;
   }
@@ -354,3 +354,25 @@
     }
   }
   
+  
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  
+}

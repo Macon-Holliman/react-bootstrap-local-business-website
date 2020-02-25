@@ -1,6 +1,6 @@
 
 .footer{
-  text-align: right;
+  text-align: center;
   width: 100%;
   padding: 10px 0;
   height: 4vh;
@@ -8,7 +8,7 @@
 
 .created-by{
   font-family: 'Roboto', sans-serif;
-  position: absolute;
+  position: unset;
   left: 0px;
   bottom: 0px;
   font-style: italic;
@@ -33,6 +33,7 @@
   position: absolute;
   right: 5px;
   bottom: 8px;
+  display: none;
 }
 
 .logo-bottom-mobile{
@@ -54,23 +55,33 @@
   
 }
 
-@media only screen and (max-width: 800px) {
-  
-.created-by{
-  display: none;
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ 
 }
-.date{
-  display: none;
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+    .footer{
+        text-align: right;
+    }
+    .created-by{
+        position: absolute;
+    }
+    .date{
+        display: block;
+    }
 }
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
 }
-
-
-
-@media (min-width: 290px) and (max-width: 790px) and (orientation:landscape) {
-
-.footer {
-  display: none;
-}
-
-
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
 }

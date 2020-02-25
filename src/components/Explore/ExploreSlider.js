@@ -115,44 +115,9 @@ class ExploreSlider extends Component {
 
 
   HoveredMobile =  ()  => (e) => {
-    //Make sure no others are hovered/enlarged
-
-    //Hide footer to not obscure view or close button
-    /*
-    var element = document.getElementById("footer-logo");
-    if(element.style.display != "none")
-    {
-      element.style.display = 'none';
-      var element = document.getElementById("footer-swiper");
-      element.style.display = 'none';
-    }
-*/
-
-    var toClose = false;
-
-    if(e.currentTarget.className.includes("catalog-item col-2-hovered"))
-    {
-      toClose = true;
-    }
 
 
-
-    var hovered = document.getElementsByClassName("catalog-item col-2-hovered");
-
-    for(var x = 0; x < hovered.length; x++)
-    {
-      hovered[x].className = "catalog-item col-2";
-    }
-
-    if(toClose) //then close the current instead
-    {
-      e.currentTarget.className = "catalog-item col-2";
-    }
-    else
-    {
-    var onMobile = window.innerWidth;
-    if(onMobile <= 650)
-    {
+    
 
       var imgToEnlarge = e.currentTarget.children[0].style.backgroundImage;
       var regex = /"(.*?)"/;
@@ -167,10 +132,8 @@ class ExploreSlider extends Component {
       element.style.display = "block";
 
       
-    }
+    
 
-
-    }
 
   }
 

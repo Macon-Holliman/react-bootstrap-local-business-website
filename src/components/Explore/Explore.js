@@ -34,32 +34,18 @@ class Explore extends Component {
     return (
 
       <div class="explore container" id="Explore">
-
         <div class="row">
+          <div class="col-12">
+            
+          <ExploreNav />
+          <ExploreSlider />
 
-        <div class="col-12">
-          
-        <ExploreNav />
-
-        <ExploreSlider />
-
-        
-
-        <div class="catalog-item-selected-container" id="preview-image-container">
-          <div class="preview-press-to-close">X</div>
-          <img class="catalog-item-selected" src="https://i.imgur.com/sIg5b8n.jpg" id="preview-image"  onClick={() => {this.closeEnlarged()}}></img>
+            <div class="catalog-item-selected-container" id="preview-image-container">
+              <div class="preview-press-to-close">X</div>
+              <img class="catalog-item-selected" src="https://i.imgur.com/sIg5b8n.jpg" id="preview-image"  onClick={() => {this.closeEnlarged()}}></img>
+            </div>
+          </div>
         </div>
-
-
-
-        </div>
-
-
-
-        </div>
-        
-        
-
       </div>
 
 

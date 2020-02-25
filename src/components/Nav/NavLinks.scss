@@ -37,3 +37,51 @@
     }
   }
 }
+
+.home-mobile{
+}
+
+.nav-adjust{
+  flex-direction: row !important;
+  li{
+    margin-right: 3vw;
+    white-space: nowrap;
+
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+  .nav-adjust{
+    flex-direction: row !important;
+    li{
+      margin-right: 1vw;
+    }
+  }
+  .home-mobile{
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  .nav-adjust{
+    flex-direction: row !important;
+    li{
+      margin-right: 0;
+    }
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  
+}
