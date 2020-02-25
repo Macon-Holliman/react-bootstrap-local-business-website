@@ -1,0 +1,51 @@
+
+.about-title-wrapper{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: oswald;
+  letter-spacing: 2px;
+  text-align: left;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), 0 0 20px rgba(41, 16, 30, 0.4), 0 0 5px rgba(91, 75, 75, 0.5);
+  cursor: default;
+  position: relative;
+  padding-bottom: 1px;
+}
+
+.about-text{
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.about-title-wrapper:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 15%;
+    height: 3px;
+    background: #c2c036;
+}
+
+
+.about-title{
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.about-title-sub{
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-left: 4px;
+  letter-spacing: .5px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.about-text{
+  
+  line-height: 1.5rem;
+  color: #fff;
+}
