@@ -24,7 +24,6 @@ class ExploreNav extends Component {
         ["https://i.imgur.com/GtkCdeD.jpg","https://i.imgur.com/KxVLQ3m.jpg","https://i.imgur.com/18o7P0c.jpg","https://i.imgur.com/UIxjJDi.jpg"], //Home
         ["https://i.imgur.com/qWOOD7T.jpg","https://i.imgur.com/7qzgZJ4.jpg","https://i.imgur.com/qituZYO.jpg","https://i.imgur.com/q3yVwH4.jpg"], //Tumblers
         ["https://i.imgur.com/etEswgC.jpg","https://i.imgur.com/rdiId1J.jpg","https://i.imgur.com/jMCXreD.jpg","https://i.imgur.com/nbx3LrL.jpg"], //Kids
-        ["","","",""],
       ],
     }
   }
@@ -138,7 +137,7 @@ class ExploreNav extends Component {
     if(element.style.display != "none"){element.style.display = "none"; 
     var element = document.getElementById("preview-image");
     element.src="";
-  }
+    }
 
     if(target == "Jewelry"){index = 0; element = document.getElementById("jewelry-button");}
     if(target == "Clothes"){index = 1; element = document.getElementById("clothes-button");}

@@ -9,7 +9,7 @@ function About() {
     <div class="about container" id="About">
       <div class="about-inner row">
 
-      <AboutInfo />
+      <AboutInfo subTitle="Love where you shop"/>
       <AboutPictures />
 
       </div>
