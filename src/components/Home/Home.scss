@@ -1,7 +1,8 @@
 .card{
     background-color: transparent !important;
     border: 0px !important;
-    height: 80vh;
+    height: unset;
+    margin-top: 2vh;
     overflow-y:auto; 
     justify-content: center;
 }
@@ -27,3 +28,28 @@
     font-size: 75%;
 }
   
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+    .card{
+        height: 80vh;
+        margin-top: 0;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
