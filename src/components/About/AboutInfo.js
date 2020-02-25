@@ -8,18 +8,18 @@ function AboutInfo() {
       
     <div class="about-title-wrapper">
       <div class="about-title">
-        Our Story
+        About Us
       </div>
       <div class="about-title-sub">
-      Eusus legentis in iis qui facit eorum claritatem. 
+      Love where you shop 
       </div>
     </div>
     <div class="about-text">
       <p>
-        Lorem ipsum dolor sit amet, zril quaerendum sea ex, et reque semper vis. Ne eam aeterno salutandi. Alia illum vel ea. Eos te aperiri disputando. Elit idque deleniti id vel, at mei hendrerit consequuntur. At has error soluta definiebas, ut lorem adipiscing est. Eum ei velit sensibus dissentias, his ex modus utinam.
+      Our mission at A{'&'}K Creations is to offer designer fashion at prices that everyone can feel good about! Our designer clothing, jewelry, handbags and accessories are unique items that won’t be found at department stores. We keep our merchandise rotating often so you’ll always see new items in our shop!
       </p>
       <p>
-        Viris moderatius te mei, principes accommodare eam eu. Eum et vidit tantas similique, quo primis expetenda ut. Mea simul ornatus ne, ut ius mutat singulis salutatus, graeco nonumes qualisque qui ad.
+      A{'&'}K Creations offers a wide range of apparel to fit anyone's unique sense of style. Our clothing and accessories are carefully curated to provide our customers the latest fashions. To keep our customers in style we post new arrivals daily, as well as offer stylist picks to help any indecisive shoppers.
       </p>
     </div>
 
