@@ -1,0 +1,53 @@
+
+.swiper{
+  display: inline-block;
+}
+
+.prevent-italicize-overlap{
+  margin-right: 6px;
+}
+
+
+.swipe{
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+  font-weight: normal;
+  overflow: hidden;
+  width: 200px;
+  font-family: 'Kaushan Script', cursive;
+  top: 5px;
+  color: #fff;
+
+
+}
+
+
+.swipe-r:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  width: 2px;
+  height: 45px;
+  background: #c2c036;
+
+  animation: r-bar 30s infinite linear;
+}
+
+
+.swipe-l:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  width: 100%;
+  width: 2px;
+  height: 45px;
+  background: #c2c036;
+
+  animation: l-bar 30s infinite linear;
+}

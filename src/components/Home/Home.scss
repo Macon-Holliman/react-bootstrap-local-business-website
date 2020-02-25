@@ -1,0 +1,29 @@
+.card{
+    background-color: transparent !important;
+    border: 0px !important;
+    height: 80vh;
+    overflow-y:auto; 
+    justify-content: center;
+}
+
+
+.sub-site-title{
+    margin-top: -40px;
+    font-size: 8vh;
+}
+
+.site-title{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16vh;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), 0 0 20px rgba(41, 16, 30, 0.4), 0 0 5px rgba(91, 75, 75, 0.5);
+    cursor: default;
+}
+
+
+.ampersand-adjust{
+    font-size: 75%;
+}
+  
