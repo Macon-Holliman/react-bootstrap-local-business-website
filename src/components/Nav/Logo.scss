@@ -375,4 +375,13 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
   
+  .swiper-wrapper{
+  
+    &.left-swipe{
+      right: 55%;
+    }
+    &.right-swipe{
+      left: 55%;
+    }
+  }
 }
