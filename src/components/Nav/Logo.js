@@ -2,8 +2,8 @@ import React from 'react';
 import './Logo.scss';
 
 
-import TextSwipeLeft from './TextSwipeLeft'
-import TextSwipeRight from './TextSwipeRight'
+import TextSwipeLeft from './TextSwipeLeft';
+import TextSwipeRight from './TextSwipeRight';
 
 function Logo() {
   return (
